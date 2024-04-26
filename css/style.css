@@ -1,0 +1,32 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: black;
+    --secondary: rgb(255, 255, 255);
+    --alternative: #139d28;
+    --awesome: hsl(121, 65%, 48%);
+    --mainBoxShadow: .5vw .5vw .3vw var(--alternative);
+    --borderColor: #13c368;
+    --elementShadow: .2vw .3vw .2vw rgb(130, 108, 108);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 20rem;
+    aspect-ratio: 2 / 3;
+    box-shadow: var(--mainBoxShadow);
+}
+
