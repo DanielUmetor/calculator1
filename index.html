@@ -3,34 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculator1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculator</title>
 </head>
 <body>
-    <div class="container">
-       <input type="text" readonly placeholder="0" data-operator>
-       <button>CE</button>
-       <button>C</button>
-       <button>
-          <i class="bi bi-trash-fill"></i>
-       </button>
-       <button>7</button>
-       <button>8</button>
-       <button data-operator>÷</button>
-       <button>9</button>
-       <button>4</button>
-       <button data-operator>X</button>
-       <button>5</button>
-       <button>6</button>
-       <button data-operator>+</button>
-       <button>1</button>
-       <button>2</button>
-       <button data-operator>-</button>
-       <button>3</button>
-       <button>0</button>
-       <button data-operator="">.</button>
-       <button>=</button>
-    </div>
-
     
-</body>
+    <table id="Calculator"> 
+        <tr> 
+            <td colspan="3"> 
+                <input type="text" id="result"> 
+            </td> 
+            <td><input type="button" value="c"></td> 
+        </tr> 
+  
+        <tr> 
+            <td><input type="button" value="1"></td> 
+            <td><input type="button" value="2"></td> 
+            <td><input type="button" value="3"></td> 
+            <td><input type="button" value="/"></td> 
+        </tr> 
+        <tr> 
+            <td><input type="button" value="4"></td> 
+            <td><input type="button" value="5"></td> 
+            <td><input type="button" value="6"></td> 
+            <td><input type="button" value="*"></td> 
+        </tr> 
+        <tr> 
+            <td><input type="button" value="7"></td> 
+            <td><input type="button" value="8"></td> 
+            <td><input type="button" value="9"></td> 
+            <td><input type="button" value="-"></td> 
+        </tr> 
+        <tr> 
+            <td><input type="button" value="0"></td> 
+            <td><input type="button" value="."></td> 
+            <td><input type="button" value="="></td> 
+            <td><input type="button" value="+"></td> 
+        </tr> 
+    </table> 
+</body> 
+    
+
 </html>
